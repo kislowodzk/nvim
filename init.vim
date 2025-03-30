@@ -308,6 +308,8 @@ nnoremap <leader>sf :set fo=taw nosmartindent autoindent<cr>
 nnoremap <leader>sc :set fo=jcroql smartindent autoindent<cr>
 nnoremap <leader>sF :set fo=ql nosmartindent autoindent<cr>
 nnoremap <leader>st :set filetype=
+nnoremap <leader>sm :set filetype=markdown<CR>
+nnoremap <leader>sw :set filetype=vimwiki<CR>
 nnoremap <leader>sk :! xset r rate 330 43<CR>
 nnoremap <leader>se :term sudo loadkeys ~/.keystrings<CR>
 nnoremap <leader>so :set so=
